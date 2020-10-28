@@ -1,4 +1,152 @@
+body {
+  font-family: 'Assistant', sans-serif;
+  background-color: #e4e6eb;
+  color: #071c40 !important;
+}
+
 .navbar-brand img {
   max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 300;
+  color: #071c4d;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: 600;
+  color: #071c4d;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #071c4db9;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071c40;
+  color: white;
+}
+
+.btn-login:hover {
+  background-color: #040c1a;
+  color: white;
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/header.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/header.jpg");
+  background-size: cover;
+}
+
+header h1, header p {
+  color: #fff;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+  width: 700px;
+}
+
+header p {
+  width: 300px;
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #ff9e53;
+  color: white;
+}
+
+header .btn-get-started:hover {
+  background-color: #ff7f1d;
+  color: white;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: white;
+  padding-left: 40px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: white;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  color: white;
+  padding: 30px 20px;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 18px;
+  color: white;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #ff9e53;
+  color: white;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #ff7f1d;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
