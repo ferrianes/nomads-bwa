@@ -1,3 +1,8 @@
+
+@import "../vendor/twbs/bootstrap/scss/functions";
+@import "../vendor/twbs/bootstrap/scss/variables";
+@import "../vendor/twbs/bootstrap/scss/mixins/_breakpoints.scss";
+
 $extra-light: 200;
 $light: 300;
 $medium: 500;
@@ -98,14 +103,20 @@ header {
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 20px;
         margin-bottom: 0;
         font-weight: $semi-bold;
+        @include media-breakpoint-up(sm) {
+            font-size: 30px;
+        }
     }
 
     p {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: $light;
+        @include media-breakpoint-up(sm) {
+            font-size: 20px;
+        }
     }
 }
 
@@ -271,5 +282,16 @@ header {
             background-color: #ff7f1d;
             color: white;
         }
+    }
+}
+
+// Footer
+footer {
+    a {
+        color: #071c4d;
+    }
+
+    .text-muted {
+        font-weight: $light;
     }
 }

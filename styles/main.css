@@ -84,14 +84,26 @@ header .btn-get-started:hover {
 }
 
 .section-stats h2 {
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 0;
   font-weight: 600;
 }
 
+@media (min-width: 576px) {
+  .section-stats h2 {
+    font-size: 30px;
+  }
+}
+
 .section-stats p {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
+}
+
+@media (min-width: 576px) {
+  .section-stats p {
+    font-size: 20px;
+  }
 }
 
 .section-popular {
@@ -248,5 +260,13 @@ header .btn-get-started:hover {
 .section-testimonial-content .btn-get-started:hover {
   background-color: #ff7f1d;
   color: white;
+}
+
+footer a {
+  color: #071c4d;
+}
+
+footer .text-muted {
+  font-weight: 300;
 }
 /*# sourceMappingURL=main.css.map */
