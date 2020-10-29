@@ -6,7 +6,7 @@ $extra-bold: 800;
 
 body {
     font-family: 'Assistant', sans-serif;
-    background-color: #e4e6eb;
+    background-color: #fff;
     color: #071c40 !important;
 }
 
@@ -95,7 +95,6 @@ header {
     .stats-detail {
         padding-top: 15px;
         background-color: white;
-        padding-left: 40px;
     }
 
     h2 {
@@ -183,9 +182,94 @@ header {
     h2 {
         font-family: 'Playfair Display', serif;
         font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
     }
 
     img {
         max-width: 100%;
+    }
+}
+
+// Testimonial Heading
+.section-testimonial-heading {
+    background: linear-gradient(#fff 0%, #f7f9ff 100%);
+    padding-top: 50px;
+    min-height: 506px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+// Testimonial Content
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-testimonial {
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+
+        .testimonial-content {
+            min-height: 380px;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        h3 {
+            font-weight: $semi-bold;
+            font-size: 22px;
+        }
+
+        .testimonial {
+            font-weight: $light;
+            font-size: 26px;
+            color: #6e6e6e;
+        }
+
+        hr {
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+
+        .trip-to {
+            font-size: 22px;
+            color: #6e6e6e;
+        }
+    }
+
+    .btn-need-help {
+        background-color: #f2f2f2;
+        color: #c3c3c3;
+
+        &:hover {
+            background-color: #dbdbdb;
+            color: #c3c3c3;
+        }
+    }
+
+    .btn-get-started {
+        background-color: #ff9e53;
+        color: white;
+
+        &:hover {
+            background-color: #ff7f1d;
+            color: white;
+        }
     }
 }
