@@ -5,6 +5,7 @@
 
 $extra-light: 200;
 $light: 300;
+$regular: 400;
 $medium: 500;
 $semi-bold: 600;
 $extra-bold: 800;
@@ -365,6 +366,39 @@ footer {
         height: 45px;
         float: left;
     }
+
+    h3 {
+        font-weight: $semi-bold;
+        font-size: 14px;
+    }
+
+    .disclaimer {
+        font-weight: $light;
+        font-size: 14px;
+        color: #B1B1B1;
+    }
+
+    .gj-datepicker {
+        .datepicker {
+            border-right: 0;
+        }
+
+        .input-group-append {
+            .btn {
+                padding-right: 30px;
+            }
+        }
+    }
+
+    .btn-add-now {
+        background-color: #071c40;
+        color: white;
+    
+        &:hover {
+            background-color: #040c1a;
+        color: white;
+        }
+    }
 }
 
 // Gallery
@@ -410,5 +444,34 @@ footer {
     &:hover {
         background-color: #ff7f1d;
         color: white;
+    }
+}
+
+.trip-information {
+    th {
+        font-weight: $light;
+        font-size: 18px;
+    }
+
+    td {
+        font-weight: $light;
+        font-size: 18px;
+        color: #B1B1B1;
+    }
+}
+
+.attendee {
+    thead {
+        td {
+            font-weight: $light;
+            color: #071c4db9;
+        }
+    }
+
+    tbody {
+        td {
+            font-weight: $regular;
+            color: #071c4db9;
+        }
     }
 }

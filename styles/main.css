@@ -336,6 +336,35 @@ footer .text-muted {
   float: left;
 }
 
+.card-details h3 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.card-details .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.card-details .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.card-details .btn-add-now {
+  background-color: #071c40;
+  color: white;
+}
+
+.card-details .btn-add-now:hover {
+  background-color: #040c1a;
+  color: white;
+}
+
 .gallery .xzoom-container {
   display: block;
 }
@@ -376,5 +405,26 @@ footer .text-muted {
 .btn-join-now:hover {
   background-color: #ff7f1d;
   color: white;
+}
+
+.trip-information th {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.trip-information td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.attendee thead td {
+  font-weight: 300;
+  color: #071c4db9;
+}
+
+.attendee tbody td {
+  font-weight: 400;
+  color: #071c4db9;
 }
 /*# sourceMappingURL=main.css.map */
