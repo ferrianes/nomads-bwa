@@ -399,6 +399,55 @@ footer {
         color: white;
         }
     }
+
+    .text-blue {
+        color: #071c4db9;
+        font-weight: $semi-bold;
+    }
+
+    .text-orange {
+        color: #ff9e53;
+        font-weight: $semi-bold;
+    }
+
+    .payment-instruction {
+        font-weight: $light;
+        font-size: 14px;
+        color: #b1b1b1;
+        margin-bottom: 1rem;
+    }
+
+    .bank {
+        .bank-item {
+            h3 {
+                font-size: 18px;
+                color: #071c4db9;
+                margin-bottom: 0;
+                font-weight: normal;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+
+            .description {
+                margin-left: 10px;
+                overflow: hidden;
+                float: left;
+            }
+
+            p {
+                color: #071c4db9;
+                font-size: 16px;
+            }
+        }
+
+        .bank-image {
+            width: 45px;
+            height: 45px;
+            float: left;
+        }
+    }
 }
 
 // Gallery

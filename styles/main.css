@@ -365,6 +365,51 @@ footer .text-muted {
   color: white;
 }
 
+.card-details .text-blue {
+  color: #071c4db9;
+  font-weight: 600;
+}
+
+.card-details .text-orange {
+  color: #ff9e53;
+  font-weight: 600;
+}
+
+.card-details .payment-instruction {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+  margin-bottom: 1rem;
+}
+
+.card-details .bank .bank-item h3 {
+  font-size: 18px;
+  color: #071c4db9;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.card-details .bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.card-details .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.card-details .bank .bank-item p {
+  color: #071c4db9;
+  font-size: 16px;
+}
+
+.card-details .bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
 .gallery .xzoom-container {
   display: block;
 }
