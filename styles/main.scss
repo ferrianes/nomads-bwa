@@ -13,7 +13,7 @@ $extra-bold: 800;
 body {
     font-family: 'Assistant', sans-serif;
     background-color: #fff;
-    color: #071c40 !important;
+    color: #071c4d !important;
 }
 
 // Navbar
@@ -51,7 +51,7 @@ body {
 }
 
 .btn-login {
-    background-color: #071c40;
+    background-color: #071c4d;
     color: white;
 
     &:hover {
@@ -391,7 +391,7 @@ footer {
     }
 
     .btn-add-now {
-        background-color: #071c40;
+        background-color: #071c4d;
         color: white;
     
         &:hover {
@@ -401,7 +401,7 @@ footer {
     }
 
     .text-blue {
-        color: #071c4db9;
+        color: #071c4d;
         font-weight: $semi-bold;
     }
 
@@ -421,7 +421,7 @@ footer {
         .bank-item {
             h3 {
                 font-size: 18px;
-                color: #071c4db9;
+                color: #071c4d;
                 margin-bottom: 0;
                 font-weight: normal;
             }
@@ -437,7 +437,7 @@ footer {
             }
 
             p {
-                color: #071c4db9;
+                color: #071c4d;
                 font-size: 16px;
             }
         }
@@ -513,14 +513,41 @@ footer {
     thead {
         td {
             font-weight: $light;
-            color: #071c4db9;
+            color: #071c4d;
         }
     }
 
     tbody {
         td {
             font-weight: $regular;
-            color: #071c4db9;
+            color: #071c4d;
+        }
+    }
+}
+
+.section-success {
+    height: 90vh;
+
+    h1 {
+        font-weight: $semi-bold;
+        font-size: 26px;
+        color: #071c4d;
+    }
+
+    p {
+        font-weight: $light;
+        font-size: 18px;
+        color: #b1b1b1;
+    }
+
+    .btn-home-page {
+        border-radius: 4px;
+        background-color: #071c4d;
+        color: white;
+    
+        &:hover {
+            background-color: #040c1a;
+            color: white;
         }
     }
 }
